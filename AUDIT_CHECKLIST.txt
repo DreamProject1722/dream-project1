@@ -1,0 +1,5 @@
+DREAM PROJECT — AUDIT CHECKLIST
+1) Smart contract review (PDAs, mint authority, overflow checks)
+2) Unit tests and integration tests with SPL token
+3) Security: reentrancy, CPI safety, access control
+4) Deployment scripts and Anchor.toml

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dream Project — Haz que los sueños sucedan</title>
+  <link rel="icon" href="assets/dream_project_logo_64.png">
+  <style>
+    :root{--dream-blue:#4A7BFF;--hope-purple:#8B5CFF;--gold:#F7C948;--dark:#111116;--bg:#F5F6FA}
+    body{font-family:Inter, Arial, sans-serif;margin:0;background:linear-gradient(180deg,var(--bg),#fff);color:var(--dark)}
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 28px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--dream-blue),var(--hope-purple));display:flex;align-items:center;justify-content:center}
+    main{padding:36px 28px;max-width:1100px;margin:0 auto}
+    .hero{display:grid;grid-template-columns:1fr 380px;gap:28px;align-items:center}
+    .card{background:white;border-radius:12px;padding:18px;box-shadow:0 10px 30px rgba(17,17,22,0.06)}
+    footer{padding:20px 28px;text-align:center;color:#666}
+    @media(max-width:900px){.hero{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="logo"><img src="assets/dream_project_logo_128.png" alt="logo" style="width:42px;height:42px"></div>
+      <div>
+        <strong style="font-size:18px">Dream Project</strong><br>
+        <small style="color:#666">Token DPJ • Red Solana</small>
+      </div>
+    </div>
+    <nav>
+      <a href="#about">Sobre</a> • <a href="#how">Cómo funciona</a> • <a href="#tokenomics">Tokenomics</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div>
+        <h1>Tu sueño merece una oportunidad. Nosotros le damos una.</h1>
+        <p>Dream Project (DPJ) es un fondo descentralizado en Solana que financia microproyectos y sueños personales alrededor del mundo. Transparencia, gobernanza comunitaria y velocidad para transformar ideas en realidades.</p>
+        <p><a href="#tokenomics" style="background:linear-gradient(90deg,var(--dream-blue),var(--hope-purple));color:white;padding:12px 18px;border-radius:10px;text-decoration:none">Únete a la comunidad</a></p>
+      </div>
+      <div class="card">
+        <h3>Lanzamiento</h3>
+        <p><strong>Token:</strong> DPJ<br><strong>Red:</strong> Solana</p>
+        <p><strong>Supply:</strong> 1,000,000,000 DPJ</p>
+      </div>
+    </section>
+
+    <section id="about" style="margin-top:28px">
+      <h2>Sobre Dream Project</h2>
+      <p>Dream Project nació para dar herramientas a quienes tienen una idea y no cuentan con recursos. No financiamos unicorns; financiamos sueños cotidianos: talleres, herramientas, estudios, microemprendimientos y proyectos comunitarios.</p>
+    </section>
+
+    <section id="how" style="margin-top:20px">
+      <h2>Cómo funciona</h2>
+      <ol>
+        <li>Publica tu proyecto con descripción y presupuesto.</li>
+        <li>La comunidad lo analiza y vota.</li>
+        <li>Proyectos seleccionados reciben fondos en DPJ o stablecoins.</li>
+        <li>Se verifica la ejecución y se publican resultados.</li>
+      </ol>
+    </section>
+
+    <section id="tokenomics" style="margin-top:20px">
+      <h2>Tokenomics</h2>
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <div class="card" style="flex:1;min-width:220px">
+          <h4>Supply total</h4>
+          <p>1,000,000,000 DPJ</p>
+        </div>
+        <div class="card" style="flex:1;min-width:220px">
+          <h4>Distribución inicial</h4>
+          <ul>
+            <li>40% Fondo comunitario</li>
+            <li>20% Liquidez</li>
+            <li>15% Desarrollo</li>
+            <li>10% Staking/recompensas</li>
+            <li>10% Marketing & alianzas</li>
+            <li>5% Equipo (lock 24 meses)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:28px">
+      <h2>Roadmap</h2>
+      <div class="card">
+        <strong>Año 1:</strong> Lanzamiento token, MVP, primeros 200 proyectos evaluados (50 financiados).<br>
+        <strong>Año 2:</strong> Escala, alianzas, 10k proyectos evaluados.<br>
+        <strong>Año 3:</strong> Gobernanza totalmente descentralizada, expansión internacional.
+      </div>
+    </section>
+
+    <section style="margin-top:28px" class="card">
+      <h3>Contacto</h3>
+      <p>Contacto: contacto@dreamproject.org</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Dream Project — Haz que los sueños sucedan • Red Solana
+  </footer>
+</body>
+</html>
